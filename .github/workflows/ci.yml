@@ -1,0 +1,27 @@
+name: CI
+
+# Tests each push to main, and each pull request, on Linux: the macOS-only
+# parts (JavaScriptCore, the browsers' cookies, the video view) skip there.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+      - name: Install sqlite3, which reads Firefox's cookies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends sqlite3
+      - run: go vet ./...
+      - run: go test ./internal/...
+      - name: Compile for Windows too
+        run: GOOS=windows go build ./...

@@ -6,11 +6,17 @@
   "out": "build",
   "macos": {
     "icon": "icon/AppIcon.icon",
-    "minimumSystemVersion": "13.0"
+    "minimumSystemVersion": "13.0",
+    "signingIdentity": "Developer ID Application: X SOUL LTD (DM5Z8Y9C3V)",
+    "entitlements": "entitlements.plist"
   },
   "linux": {
     "comment": "YouTube Music 原生桌面客户端",
-    "categories": ["AudioVideo", "Audio", "Player"],
+    "categories": [
+      "AudioVideo",
+      "Audio",
+      "Player"
+    ],
     "webview": true
   }
 }

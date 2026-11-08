@@ -32,6 +32,13 @@ go tool mygo build -platform windows/amd64,linux/amd64   # 在 Mac 上交叉编�
 go test ./...        # 运行测试；LIVE=1 时运行访问 YouTube 的测试
 ```
 
+## 发布
+
+1. 改 `mygo.json` 的 `version`、`CHANGELOG.md`，提交后推送对应的 tag（如 `v0.2.0`）
+2. GitHub Actions 在 Ubuntu 上编出 Windows（安装包）与 Linux（.deb、tar.gz）版，放进 Release 草稿
+3. 在 Mac 上运行 `scripts/release-mac.sh -upload`：编出通用版（Apple 芯片与 Intel），用 Developer ID 签名，经 `asc` 交 Apple 公证并钉上票据，再传到同一个草稿
+4. 检查草稿后发布
+
 ## 实现说明
 
 - 目录与搜索走 InnerTube（music.youtube.com 的 `WEB_REMIX` 客户端）
