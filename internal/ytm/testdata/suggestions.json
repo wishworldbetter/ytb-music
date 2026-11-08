@@ -1,0 +1,633 @@
+{
+ "contents": [
+  {
+   "searchSuggestionsSectionRenderer": {
+    "contents": [
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "despa",
+          "bold": true
+         },
+         {
+          "text": "cito"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "despacito"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     },
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "despa",
+          "bold": true
+         },
+         {
+          "text": "cito justin bieber"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "despacito justin bieber"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     },
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "despa",
+          "bold": true
+         },
+         {
+          "text": "cito luis fonsi"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "despacito luis fonsi"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     },
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "ďespasito luis fonsi"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "ďespasito luis fonsi"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     },
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "despa",
+          "bold": true
+         },
+         {
+          "text": "cito remix"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "despacito remix"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     },
+     {
+      "searchSuggestionRenderer": {
+       "suggestion": {
+        "runs": [
+         {
+          "text": "despa",
+          "bold": true
+         },
+         {
+          "text": "ir"
+         }
+        ]
+       },
+       "navigationEndpoint": {
+        "searchEndpoint": {
+         "query": "despair"
+        }
+       },
+       "icon": {
+        "iconType": "SEARCH"
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "searchSuggestionsSectionRenderer": {
+    "contents": [
+     {
+      "musicResponsiveListItemRenderer": {
+       "thumbnail": {
+        "musicThumbnailRenderer": {
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+           },
+           {
+            "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+           }
+          ]
+         },
+         "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+         "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+        }
+       },
+       "overlay": {
+        "musicItemThumbnailOverlayRenderer": {
+         "content": {
+          "musicPlayButtonRenderer": {
+           "playNavigationEndpoint": {
+            "watchEndpoint": {
+             "videoId": "FXovf5dsRTw",
+             "watchEndpointMusicSupportedConfigs": {
+              "watchEndpointMusicConfig": {
+               "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+              }
+             }
+            }
+           },
+           "activeScaleFactor": 1,
+           "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+           "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+          }
+         },
+         "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+         "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+        }
+       },
+       "flexColumns": [
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Despacito",
+             "navigationEndpoint": {
+              "watchEndpoint": {
+               "videoId": "FXovf5dsRTw",
+               "watchEndpointMusicSupportedConfigs": {
+                "watchEndpointMusicConfig": {
+                 "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                }
+               }
+              }
+             }
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Song"
+            },
+            {
+             "text": " • "
+            },
+            {
+             "text": "Luis Fonsi",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "UCk91oFc2hY2CdHirU93baLg",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                }
+               }
+              }
+             }
+            },
+            {
+             "text": " & "
+            },
+            {
+             "text": "Daddy Yankee",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "UCXRloA7YFgCfd6sU2_Y12cA",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                }
+               }
+              }
+             }
+            },
+            {
+             "text": " • "
+            },
+            {
+             "text": "10B plays"
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Despacito",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "MPREb_78js9pEDBUZ",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                }
+               }
+              }
+             }
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_MEDIUM"
+         }
+        }
+       ],
+       "menu": {
+        "menuRenderer": {
+         "items": [
+          {
+           "menuNavigationItemRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "View song credits"
+              }
+             ]
+            },
+            "icon": {
+             "iconType": "PEOPLE_GROUP"
+            },
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "MPTCFXovf5dsRTw",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       },
+       "playlistItemData": {
+        "videoId": "FXovf5dsRTw"
+       },
+       "flexColumnDisplayStyle": "MUSIC_RESPONSIVE_LIST_ITEM_FLEX_COLUMN_DISPLAY_STYLE_TWO_LINE_STACK",
+       "navigationEndpoint": {
+        "watchEndpoint": {
+         "videoId": "FXovf5dsRTw",
+         "watchEndpointMusicSupportedConfigs": {
+          "watchEndpointMusicConfig": {
+           "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "musicResponsiveListItemRenderer": {
+       "thumbnail": {
+        "musicThumbnailRenderer": {
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w60-h60-l90-rj",
+            "width": 60,
+            "height": 60
+           },
+           {
+            "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w120-h120-l90-rj",
+            "width": 120,
+            "height": 120
+           }
+          ]
+         },
+         "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+         "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+        }
+       },
+       "overlay": {
+        "musicItemThumbnailOverlayRenderer": {
+         "content": {
+          "musicPlayButtonRenderer": {
+           "playNavigationEndpoint": {
+            "watchEndpoint": {
+             "videoId": "FdMG84qN_98",
+             "watchEndpointMusicSupportedConfigs": {
+              "watchEndpointMusicConfig": {
+               "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+              }
+             }
+            }
+           },
+           "activeScaleFactor": 1,
+           "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+           "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+          }
+         },
+         "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+         "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+        }
+       },
+       "flexColumns": [
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Despacito (Remix) (feat. Justin Bieber)",
+             "navigationEndpoint": {
+              "watchEndpoint": {
+               "videoId": "FdMG84qN_98",
+               "watchEndpointMusicSupportedConfigs": {
+                "watchEndpointMusicConfig": {
+                 "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                }
+               }
+              }
+             }
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Song"
+            },
+            {
+             "text": " • "
+            },
+            {
+             "text": "Luis Fonsi",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "UCk91oFc2hY2CdHirU93baLg",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                }
+               }
+              }
+             }
+            },
+            {
+             "text": " & "
+            },
+            {
+             "text": "Daddy Yankee",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "UCXRloA7YFgCfd6sU2_Y12cA",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                }
+               }
+              }
+             }
+            },
+            {
+             "text": " • "
+            },
+            {
+             "text": "74M plays"
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "VIDA",
+             "navigationEndpoint": {
+              "browseEndpoint": {
+               "browseId": "MPREb_QqR6FQPQ76x",
+               "browseEndpointContextSupportedConfigs": {
+                "browseEndpointContextMusicConfig": {
+                 "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                }
+               }
+              }
+             }
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_MEDIUM"
+         }
+        }
+       ],
+       "menu": {
+        "menuRenderer": {
+         "items": [
+          {
+           "menuNavigationItemRenderer": {
+            "text": {
+             "runs": [
+              {
+               "text": "View song credits"
+              }
+             ]
+            },
+            "icon": {
+             "iconType": "PEOPLE_GROUP"
+            },
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "MPTCFdMG84qN_98",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       },
+       "playlistItemData": {
+        "videoId": "FdMG84qN_98"
+       },
+       "flexColumnDisplayStyle": "MUSIC_RESPONSIVE_LIST_ITEM_FLEX_COLUMN_DISPLAY_STYLE_TWO_LINE_STACK",
+       "navigationEndpoint": {
+        "watchEndpoint": {
+         "videoId": "FdMG84qN_98",
+         "watchEndpointMusicSupportedConfigs": {
+          "watchEndpointMusicConfig": {
+           "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+          }
+         }
+        }
+       }
+      }
+     },
+     {
+      "musicResponsiveListItemRenderer": {
+       "thumbnail": {
+        "musicThumbnailRenderer": {
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/irW1TR-0sbU/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AOn4CLDBhcLTiB_iGgS7HN0CPU0ydxRIyw",
+            "width": 400,
+            "height": 225
+           }
+          ]
+         },
+         "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+         "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+        }
+       },
+       "overlay": {
+        "musicItemThumbnailOverlayRenderer": {
+         "content": {
+          "musicPlayButtonRenderer": {
+           "playNavigationEndpoint": {
+            "watchEndpoint": {
+             "videoId": "irW1TR-0sbU",
+             "watchEndpointMusicSupportedConfigs": {
+              "watchEndpointMusicConfig": {
+               "musicVideoType": "MUSIC_VIDEO_TYPE_UGC"
+              }
+             }
+            }
+           },
+           "activeScaleFactor": 1,
+           "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+           "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+          }
+         },
+         "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+         "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+        }
+       },
+       "flexColumns": [
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "luis fonsi - despacito (slowed + reverb) ft. daddy yankee",
+             "navigationEndpoint": {
+              "watchEndpoint": {
+               "videoId": "irW1TR-0sbU",
+               "watchEndpointMusicSupportedConfigs": {
+                "watchEndpointMusicConfig": {
+                 "musicVideoType": "MUSIC_VIDEO_TYPE_UGC"
+                }
+               }
+              }
+             }
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {
+           "runs": [
+            {
+             "text": "Video"
+            },
+            {
+             "text": " • "
+            },
+            {
+             "text": "12M views"
+            }
+           ]
+          },
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+         }
+        },
+        {
+         "musicResponsiveListItemFlexColumnRenderer": {
+          "text": {},
+          "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_MEDIUM"
+         }
+        }
+       ],
+       "menu": {
+        "menuRenderer": {
+         "items": []
+        }
+       },
+       "playlistItemData": {
+        "videoId": "irW1TR-0sbU"
+       },
+       "flexColumnDisplayStyle": "MUSIC_RESPONSIVE_LIST_ITEM_FLEX_COLUMN_DISPLAY_STYLE_TWO_LINE_STACK",
+       "navigationEndpoint": {
+        "watchEndpoint": {
+         "videoId": "irW1TR-0sbU",
+         "watchEndpointMusicSupportedConfigs": {
+          "watchEndpointMusicConfig": {
+           "musicVideoType": "MUSIC_VIDEO_TYPE_UGC"
+          }
+         }
+        }
+       }
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

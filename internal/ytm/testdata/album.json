@@ -1,0 +1,624 @@
+{
+ "contents": {
+  "twoColumnBrowseResultsRenderer": {
+   "secondaryContents": {
+    "sectionListRenderer": {
+     "contents": [
+      {
+       "musicShelfRenderer": {
+        "contents": [
+         {
+          "musicResponsiveListItemRenderer": {
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "sKlA0A3ufpc",
+                 "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                 "index": 0,
+                 "playerParams": "ygYQMkJEMTgxQkY5ODZEOEY5OA%3D%3D",
+                 "playlistSetVideoId": "2BD181BF986D8F98",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               },
+               "activeScaleFactor": 1,
+               "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+               "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+              }
+             },
+             "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+             "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Sola",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "sKlA0A3ufpc",
+                   "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Luis Fonsi",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "134M plays"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "3:26"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH",
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "menu": {
+            "menuRenderer": {
+             "items": [
+              {
+               "menuNavigationItemRenderer": {
+                "text": {
+                 "runs": [
+                  {
+                   "text": "View song credits"
+                  }
+                 ]
+                },
+                "icon": {
+                 "iconType": "PEOPLE_GROUP"
+                },
+                "navigationEndpoint": {
+                 "browseEndpoint": {
+                  "browseId": "MPTCJz2Ot00HHII",
+                  "browseEndpointContextSupportedConfigs": {
+                   "browseEndpointContextMusicConfig": {
+                    "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           },
+           "playlistItemData": {
+            "playlistSetVideoId": "2BD181BF986D8F98",
+            "videoId": "sKlA0A3ufpc"
+           },
+           "itemHeight": "MUSIC_RESPONSIVE_LIST_ITEM_HEIGHT_MEDIUM",
+           "index": {
+            "runs": [
+             {
+              "text": "1"
+             }
+            ]
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "De4FqIkvHX0",
+                 "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                 "index": 3,
+                 "playerParams": "ygYQNDIxQTdBQTM0REI2Q0E2Mg%3D%3D",
+                 "playlistSetVideoId": "421A7AA34DB6CA62",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               },
+               "activeScaleFactor": 1,
+               "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+               "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+              }
+             },
+             "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+             "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Imposible",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "De4FqIkvHX0",
+                   "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Luis Fonsi",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                },
+                {
+                 "text": " & "
+                },
+                {
+                 "text": "Ozuna",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCKEFjh4JL-OyMI8z3h5Coaw",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "646M plays"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "2:45"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH",
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "menu": {
+            "menuRenderer": {
+             "items": [
+              {
+               "menuNavigationItemRenderer": {
+                "text": {
+                 "runs": [
+                  {
+                   "text": "View song credits"
+                  }
+                 ]
+                },
+                "icon": {
+                 "iconType": "PEOPLE_GROUP"
+                },
+                "navigationEndpoint": {
+                 "browseEndpoint": {
+                  "browseId": "MPTCg4M0CMDcRNw",
+                  "browseEndpointContextSupportedConfigs": {
+                   "browseEndpointContextMusicConfig": {
+                    "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           },
+           "playlistItemData": {
+            "playlistSetVideoId": "421A7AA34DB6CA62",
+            "videoId": "De4FqIkvHX0"
+           },
+           "itemHeight": "MUSIC_RESPONSIVE_LIST_ITEM_HEIGHT_MEDIUM",
+           "index": {
+            "runs": [
+             {
+              "text": "4"
+             }
+            ]
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "FdMG84qN_98",
+                 "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                 "index": 12,
+                 "playerParams": "ygYQQTcxNDEyNjhERUE2MEY3NQ%3D%3D",
+                 "playlistSetVideoId": "A7141268DEA60F75",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                  }
+                 }
+                }
+               },
+               "activeScaleFactor": 1,
+               "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+               "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+              }
+             },
+             "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+             "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Despacito (Remix) (feat. Justin Bieber)",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "FdMG84qN_98",
+                   "playlistId": "OLAK5uy_maaVAsTyTB6c-EPSUeUskM-PwCMt5EqKA",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Luis Fonsi",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                },
+                {
+                 "text": " & "
+                },
+                {
+                 "text": "Daddy Yankee",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCXRloA7YFgCfd6sU2_Y12cA",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "74M plays"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "3:51"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH",
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "menu": {
+            "menuRenderer": {
+             "items": [
+              {
+               "menuNavigationItemRenderer": {
+                "text": {
+                 "runs": [
+                  {
+                   "text": "View song credits"
+                  }
+                 ]
+                },
+                "icon": {
+                 "iconType": "PEOPLE_GROUP"
+                },
+                "navigationEndpoint": {
+                 "browseEndpoint": {
+                  "browseId": "MPTCFdMG84qN_98",
+                  "browseEndpointContextSupportedConfigs": {
+                   "browseEndpointContextMusicConfig": {
+                    "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           },
+           "playlistItemData": {
+            "playlistSetVideoId": "A7141268DEA60F75",
+            "videoId": "FdMG84qN_98"
+           },
+           "itemHeight": "MUSIC_RESPONSIVE_LIST_ITEM_HEIGHT_MEDIUM",
+           "index": {
+            "runs": [
+             {
+              "text": "13"
+             }
+            ]
+           }
+          }
+         }
+        ],
+        "contentsMultiSelectable": true
+       }
+      }
+     ]
+    }
+   },
+   "tabs": [
+    {
+     "tabRenderer": {
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "musicResponsiveHeaderRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w60-h60-l90-rj",
+                "width": 60,
+                "height": 60
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w120-h120-l90-rj",
+                "width": 120,
+                "height": 120
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w226-h226-l90-rj",
+                "width": 226,
+                "height": 226
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w544-h544-l90-rj",
+                "width": 544,
+                "height": 544
+               }
+              ]
+             },
+             "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+             "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_UNSPECIFIED"
+            }
+           },
+           "title": {
+            "runs": [
+             {
+              "text": "VIDA"
+             }
+            ]
+           },
+           "subtitle": {
+            "runs": [
+             {
+              "text": "Album"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "2019"
+             }
+            ]
+           },
+           "straplineTextOne": {
+            "runs": [
+             {
+              "text": "Luis Fonsi",
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                 }
+                }
+               }
+              }
+             }
+            ]
+           },
+           "description": {
+            "musicDescriptionShelfRenderer": {
+             "description": {
+              "runs": [
+               {
+                "text": "Vida is the tenth studio album by Puerto Rican singer Luis Fonsi, released on February 1, 2019, through Universal Music Latin Entertainment. It received a nomination for Best Latin Pop Album at the 62nd Annual Grammy Awards and for Album of the Year at the 20th Annual Latin Grammy Awards.\nVida is Fonsi's first album in five years, and features the singles \"Despacito\", \"Échame la Culpa\", \"Calypso\", \"Imposible\" and \"Sola\". Commercially the album sold over one million copies in the United States, topping the Billboard Top Latin Albums.\n\nFrom Wikipedia ("
+               },
+               {
+                "text": "https://en.wikipedia.org/wiki/Vida_(L...",
+                "navigationEndpoint": {
+                 "urlEndpoint": {
+                  "url": "https://en.wikipedia.org/wiki/Vida_(Luis_Fonsi_album)",
+                  "target": "TARGET_NEW_WINDOW"
+                 }
+                }
+               },
+               {
+                "text": ") under Creative Commons Attribution CC-BY-SA 3.0 ("
+               },
+               {
+                "text": "https://creativecommons.org/licenses/...",
+                "navigationEndpoint": {
+                 "urlEndpoint": {
+                  "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+                  "target": "TARGET_NEW_WINDOW"
+                 }
+                }
+               },
+               {
+                "text": ")"
+               }
+              ]
+             },
+             "shelfStyle": "MUSIC_SHELF_STYLE_OPEN_DIALOG_ON_CLICK"
+            }
+           },
+           "secondSubtitle": {
+            "runs": [
+             {
+              "text": "15 songs"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "52 minutes"
+             }
+            ]
+           }
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  }
+ }
+}

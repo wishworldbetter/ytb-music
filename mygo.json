@@ -1,0 +1,16 @@
+{
+  "name": "YTB Music",
+  "identifier": "com.ytbmusic.app",
+  "slug": "ytb-music",
+  "version": "0.1.0",
+  "out": "build",
+  "macos": {
+    "icon": "icon/AppIcon.icon",
+    "minimumSystemVersion": "13.0"
+  },
+  "linux": {
+    "comment": "YouTube Music 原生桌面客户端",
+    "categories": ["AudioVideo", "Audio", "Player"],
+    "webview": true
+  }
+}

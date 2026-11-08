@@ -1,0 +1,735 @@
+{
+ "contents": {
+  "singleColumnMusicWatchNextResultsRenderer": {
+   "tabbedRenderer": {
+    "watchNextTabbedResultsRenderer": {
+     "tabs": [
+      {
+       "tabRenderer": {
+        "title": "Up next",
+        "content": {
+         "musicQueueRenderer": {
+          "content": {
+           "playlistPanelRenderer": {
+            "contents": [
+             {
+              "playlistPanelVideoRenderer": {
+               "title": {
+                "runs": [
+                 {
+                  "text": "Despacito"
+                 }
+                ]
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "Luis Fonsi",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " & "
+                 },
+                 {
+                  "text": "Daddy Yankee",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "UCXRloA7YFgCfd6sU2_Y12cA",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "Despacito",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "MPREb_78js9pEDBUZ",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "2017"
+                 }
+                ]
+               },
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w60-h60-l90-rj",
+                  "width": 60,
+                  "height": 60
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w120-h120-l90-rj",
+                  "width": 120,
+                  "height": 120
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w180-h180-l90-rj",
+                  "width": 180,
+                  "height": 180
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w226-h226-l90-rj",
+                  "width": 226,
+                  "height": 226
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w302-h302-l90-rj",
+                  "width": 302,
+                  "height": 302
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/1Z53Q5KyKUB8AcpnO9eCoow2iA-y_8yBIQyKW1dT2Y24Ss98JHxE4zGD2mpdRddmO8pFfyIeYUdVmQs45A=w544-h544-l90-rj",
+                  "width": 544,
+                  "height": 544
+                 }
+                ]
+               },
+               "lengthText": {
+                "runs": [
+                 {
+                  "text": "3:49"
+                 }
+                ]
+               },
+               "selected": true,
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "FXovf5dsRTw",
+                 "playlistId": "RDAMVMFXovf5dsRTw",
+                 "index": 0,
+                 "params": "OAHyAQIIAQ%3D%3D",
+                 "playerParams": "8AUBygYQNTZCNDRGNkQxMDU1N0NDNrAIAg%3D%3D",
+                 "playlistSetVideoId": "56B44F6D10557CC6",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "hasPersistentPlaylistPanel": true,
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                  }
+                 }
+                }
+               },
+               "videoId": "FXovf5dsRTw",
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "Luis Fonsi"
+                 },
+                 {
+                  "text": " & "
+                 },
+                 {
+                  "text": "Daddy Yankee"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "View song credits"
+                      }
+                     ]
+                    },
+                    "icon": {
+                     "iconType": "PEOPLE_GROUP"
+                    },
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "MPTCFXovf5dsRTw",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 ]
+                }
+               },
+               "playlistSetVideoId": "56B44F6D10557CC6",
+               "canReorder": true
+              }
+             },
+             {
+              "playlistPanelVideoRenderer": {
+               "title": {
+                "runs": [
+                 {
+                  "text": "Gasolina"
+                 }
+                ]
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "Daddy Yankee",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "UCXRloA7YFgCfd6sU2_Y12cA",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "Barrio Fino (Bonus Track Version)",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "MPREb_axSPlAvhGje",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "2004"
+                 }
+                ]
+               },
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w60-h60-l90-rj",
+                  "width": 60,
+                  "height": 60
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w120-h120-l90-rj",
+                  "width": 120,
+                  "height": 120
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w180-h180-l90-rj",
+                  "width": 180,
+                  "height": 180
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w226-h226-l90-rj",
+                  "width": 226,
+                  "height": 226
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w302-h302-l90-rj",
+                  "width": 302,
+                  "height": 302
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/HIGwecpHHZw6BARsFH1exWb6aSCZdCKAa0NzZkcCR47nT18i30o7-Le-qvLjlQKvckMaMNKndH9HXNc=w544-h544-l90-rj",
+                  "width": 544,
+                  "height": 544
+                 }
+                ]
+               },
+               "lengthText": {
+                "runs": [
+                 {
+                  "text": "3:13"
+                 }
+                ]
+               },
+               "selected": false,
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "2djj_KnGwjk",
+                 "playlistId": "RDAMVMFXovf5dsRTw",
+                 "index": 1,
+                 "params": "OAHyAQIIAQ%3D%3D",
+                 "playerParams": "8AUBygYQMjg5RjRBNDZERjBBMzBEMrAIAg%3D%3D",
+                 "playlistSetVideoId": "289F4A46DF0A30D2",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "hasPersistentPlaylistPanel": true,
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                  }
+                 }
+                }
+               },
+               "videoId": "2djj_KnGwjk",
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "Daddy Yankee"
+                 }
+                ]
+               },
+               "menu": {
+                "menuRenderer": {
+                 "items": [
+                  {
+                   "menuNavigationItemRenderer": {
+                    "text": {
+                     "runs": [
+                      {
+                       "text": "View song credits"
+                      }
+                     ]
+                    },
+                    "icon": {
+                     "iconType": "PEOPLE_GROUP"
+                    },
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "MPTC2djj_KnGwjk",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 ]
+                }
+               },
+               "playlistSetVideoId": "289F4A46DF0A30D2",
+               "canReorder": true
+              }
+             },
+             {
+              "playlistPanelVideoWrapperRenderer": {
+               "primaryRenderer": {
+                "playlistPanelVideoRenderer": {
+                 "title": {
+                  "runs": [
+                   {
+                    "text": "Échame La Culpa"
+                   }
+                  ]
+                 },
+                 "longBylineText": {
+                  "runs": [
+                   {
+                    "text": "Luis Fonsi",
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                       }
+                      }
+                     }
+                    }
+                   },
+                   {
+                    "text": " & "
+                   },
+                   {
+                    "text": "Demi Lovato",
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "UCwem2sj-QUJCiWiPAo9JuAw",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                       }
+                      }
+                     }
+                    }
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "VIDA",
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "MPREb_QqR6FQPQ76x",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                       }
+                      }
+                     }
+                    }
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "2019"
+                   }
+                  ]
+                 },
+                 "thumbnail": {
+                  "thumbnails": [
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w60-h60-l90-rj",
+                    "width": 60,
+                    "height": 60
+                   },
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w120-h120-l90-rj",
+                    "width": 120,
+                    "height": 120
+                   },
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w180-h180-l90-rj",
+                    "width": 180,
+                    "height": 180
+                   },
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w226-h226-l90-rj",
+                    "width": 226,
+                    "height": 226
+                   },
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w302-h302-l90-rj",
+                    "width": 302,
+                    "height": 302
+                   },
+                   {
+                    "url": "https://yt3.googleusercontent.com/Ewf3TyX4evgZ8eGK1u1wAIbq1u4iZ_8zfSwkb8xCkAMkdCwSlwnw5urehhWoz-FWuCWUurcC4NQcDHo=w544-h544-l90-rj",
+                    "width": 544,
+                    "height": 544
+                   }
+                  ]
+                 },
+                 "lengthText": {
+                  "runs": [
+                   {
+                    "text": "2:54"
+                   }
+                  ]
+                 },
+                 "selected": false,
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "YDswuo2dIvY",
+                   "playlistId": "RDAMVMFXovf5dsRTw",
+                   "index": 2,
+                   "params": "OAHyAQIIAQ%3D%3D",
+                   "playerParams": "8AUBygYQMDE3MjA4RkFBODUyMzNGObAIAg%3D%3D",
+                   "playlistSetVideoId": "017208FAA85233F9",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "hasPersistentPlaylistPanel": true,
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                    }
+                   }
+                  }
+                 },
+                 "videoId": "YDswuo2dIvY",
+                 "shortBylineText": {
+                  "runs": [
+                   {
+                    "text": "Luis Fonsi"
+                   },
+                   {
+                    "text": " & "
+                   },
+                   {
+                    "text": "Demi Lovato"
+                   }
+                  ]
+                 },
+                 "menu": {
+                  "menuRenderer": {
+                   "items": [
+                    {
+                     "menuNavigationItemRenderer": {
+                      "text": {
+                       "runs": [
+                        {
+                         "text": "View song credits"
+                        }
+                       ]
+                      },
+                      "icon": {
+                       "iconType": "PEOPLE_GROUP"
+                      },
+                      "navigationEndpoint": {
+                       "browseEndpoint": {
+                        "browseId": "MPTCYDswuo2dIvY",
+                        "browseEndpointContextSupportedConfigs": {
+                         "browseEndpointContextMusicConfig": {
+                          "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                         }
+                        }
+                       }
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 },
+                 "playlistSetVideoId": "017208FAA85233F9",
+                 "canReorder": true
+                }
+               },
+               "counterpart": [
+                {
+                 "counterpartRenderer": {
+                  "playlistPanelVideoRenderer": {
+                   "title": {
+                    "runs": [
+                     {
+                      "text": "Échame La Culpa"
+                     }
+                    ]
+                   },
+                   "longBylineText": {
+                    "runs": [
+                     {
+                      "text": "Luis Fonsi",
+                      "navigationEndpoint": {
+                       "browseEndpoint": {
+                        "browseId": "UCk91oFc2hY2CdHirU93baLg",
+                        "browseEndpointContextSupportedConfigs": {
+                         "browseEndpointContextMusicConfig": {
+                          "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                         }
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "text": " & "
+                     },
+                     {
+                      "text": "Demi Lovato",
+                      "navigationEndpoint": {
+                       "browseEndpoint": {
+                        "browseId": "UCwem2sj-QUJCiWiPAo9JuAw",
+                        "browseEndpointContextSupportedConfigs": {
+                         "browseEndpointContextMusicConfig": {
+                          "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                         }
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "text": " • "
+                     },
+                     {
+                      "text": "VIDA",
+                      "navigationEndpoint": {
+                       "browseEndpoint": {
+                        "browseId": "MPREb_QqR6FQPQ76x",
+                        "browseEndpointContextSupportedConfigs": {
+                         "browseEndpointContextMusicConfig": {
+                          "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                         }
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "text": " • "
+                     },
+                     {
+                      "text": "2019"
+                     }
+                    ]
+                   },
+                   "thumbnail": {
+                    "thumbnails": [
+                     {
+                      "url": "https://i.ytimg.com/vi/TyHvyGVs42U/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                     }
+                    ]
+                   },
+                   "lengthText": {
+                    "runs": [
+                     {
+                      "text": "2:54"
+                     }
+                    ]
+                   },
+                   "selected": false,
+                   "navigationEndpoint": {
+                    "watchEndpoint": {
+                     "videoId": "TyHvyGVs42U",
+                     "playlistId": "RDAMVMFXovf5dsRTw",
+                     "index": 2,
+                     "params": "OAHyAQIIAQ%3D%3D",
+                     "playerParams": "8AUBygYQMDE3MjA4RkFBODUyMzNGObAIAg%3D%3D",
+                     "playlistSetVideoId": "017208FAA85233F9",
+                     "watchEndpointMusicSupportedConfigs": {
+                      "watchEndpointMusicConfig": {
+                       "hasPersistentPlaylistPanel": true,
+                       "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                      }
+                     }
+                    }
+                   },
+                   "videoId": "TyHvyGVs42U",
+                   "shortBylineText": {
+                    "runs": [
+                     {
+                      "text": "Luis Fonsi"
+                     },
+                     {
+                      "text": " & "
+                     },
+                     {
+                      "text": "Demi Lovato"
+                     }
+                    ]
+                   },
+                   "menu": {
+                    "menuRenderer": {
+                     "items": [
+                      {
+                       "menuNavigationItemRenderer": {
+                        "text": {
+                         "runs": [
+                          {
+                           "text": "View song credits"
+                          }
+                         ]
+                        },
+                        "icon": {
+                         "iconType": "PEOPLE_GROUP"
+                        },
+                        "navigationEndpoint": {
+                         "browseEndpoint": {
+                          "browseId": "MPTCYDswuo2dIvY",
+                          "browseEndpointContextSupportedConfigs": {
+                           "browseEndpointContextMusicConfig": {
+                            "pageType": "MUSIC_PAGE_TYPE_TRACK_CREDITS"
+                           }
+                          }
+                         }
+                        }
+                       }
+                      }
+                     ]
+                    }
+                   },
+                   "playlistSetVideoId": "017208FAA85233F9",
+                   "canReorder": true
+                  }
+                 },
+                 "segmentMap": {}
+                }
+               ]
+              }
+             }
+            ],
+            "playlistId": "RDAMVMFXovf5dsRTw",
+            "isInfinite": true,
+            "continuations": [
+             {
+              "nextRadioContinuationData": {
+               "continuation": "CDISOBILTzlCMGFONm1MS0kiEVJEQU1WTUZYb3ZmNWRzUlR3ODHQAQH6ARBENjI1QUI0MDI5NEQzODFEGAo%3D"
+              }
+             }
+            ],
+            "numItemsToShow": 25,
+            "shuffleToggleButton": {
+             "toggleButtonRenderer": {
+              "defaultIcon": {
+               "iconType": "MUSIC_SHUFFLE"
+              },
+              "defaultServiceEndpoint": {
+               "watchPlaylistEndpoint": {
+                "playlistId": "RDAMVMFXovf5dsRTw",
+                "params": "wAEB8gECGAE%3D"
+               }
+              },
+              "toggledIcon": {
+               "iconType": "MUSIC_SHUFFLE"
+              },
+              "toggledServiceEndpoint": {
+               "watchPlaylistEndpoint": {
+                "playlistId": "RDAMVMFXovf5dsRTw",
+                "params": "wAEB"
+               }
+              }
+             }
+            }
+           }
+          },
+          "hack": true,
+          "header": {
+           "musicQueueHeaderRenderer": {
+            "title": {
+             "runs": [
+              {
+               "text": "Playing from"
+              }
+             ]
+            },
+            "subtitle": {
+             "runs": [
+              {
+               "text": "Despacito Mix"
+              }
+             ]
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      {
+       "tabRenderer": {
+        "endpoint": {
+         "browseEndpoint": {
+          "browseId": "MPLYt_78js9pEDBUZ-1",
+          "browseEndpointContextSupportedConfigs": {
+           "browseEndpointContextMusicConfig": {
+            "pageType": "MUSIC_PAGE_TYPE_TRACK_LYRICS"
+           }
+          }
+         }
+        },
+        "title": "Lyrics"
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

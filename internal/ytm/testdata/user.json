@@ -1,0 +1,937 @@
+{
+ "contents": {
+  "singleColumnBrowseResultsRenderer": {
+   "tabs": [
+    {
+     "tabRenderer": {
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "musicCarouselShelfRenderer": {
+           "contents": [
+            {
+             "musicMultiRowListItemRenderer": {
+              "description": {
+               "runs": [
+                {
+                 "text": "Welcome to a delicious episode of \"Like \u0026 Describe\" LIVE from VidCon 2024! Join MatPat with food legends @EatSpicywithTee , @hyuneeEats , and Chef Josh of @mythicalkitchen as they dive into the fascinating world of mukbangs. From their origins in South Korea to their global phenomenon status, we explore the evolution of this sensory delight and its impact on YouTube and beyond. Discover the unique journey of mukbang creators, the role of ASMR, and the creative ways food and entertainment merge through the lens of our panel of esteemed eaters. \n\nLet us know your favorite mukbang moments in the comments and check out the incredible creators featured in this video! \n\nHost Creators: \nMatPat\n@hyuneeEats \n@EatSpicywithTee \n@mythicalkitchen \n\nFeatured Creators:\n@FirstWeFeast \n@LINHASMR \n@AliIceberg \n@Bloveslife \n@dona_mukbang \n@HunniBeeASMR \n@Jane_asmr \n@atjulie \n@TheOfficialPrinceFamily \n@VikkyASMR \n@ZachChoi \n@foomuk \n\n#Mukbang\n#MatPat\n#likeanddescribe \n\n00:00 Intro\n3:40 Era 1: The Origins of Mukbang\n8:37 Era 2: YouTube South Korean Origins \n16:30 Era 3: Global Expansion and the Rise of ASMR\n28:49 Era 4: Evolution of Mukbang Crossovers"
+                }
+               ]
+              },
+              "displayStyle": "MUSIC_MULTI_ROW_LIST_ITEM_DISPLAY_STYLE_EXPANDED",
+              "onTap": {
+               "watchEndpoint": {
+                "index": 0,
+                "params": "8gEDmAEI",
+                "videoId": "P8ggfb67ODs",
+                "watchEndpointMusicSupportedConfigs": {
+                 "watchEndpointMusicConfig": {
+                  "musicVideoType": "MUSIC_VIDEO_TYPE_PODCAST_EPISODE"
+                 }
+                }
+               }
+              },
+              "playbackProgress": {
+               "musicPlaybackProgressRenderer": {
+                "durationText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "31 min"
+                  }
+                 ]
+                },
+                "playbackProgressPercentage": 0,
+                "playbackProgressText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "31 min"
+                  }
+                 ]
+                },
+                "playedText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "Played",
+                   "textColor": 4294921797
+                  }
+                 ]
+                },
+                "videoPlaybackPositionFeedbackToken": ""
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "text": "1.3M views"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "Sep 12, 2024"
+                }
+               ]
+              },
+              "thumbnail": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 225,
+                   "url": "https://i.ytimg.com/vi/P8ggfb67ODs/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg\u0026rs=AMzJL3lJZm3zklwnSVuUy4dzqQeDe2IinA",
+                   "width": 400
+                  },
+                  {
+                   "height": 450,
+                   "url": "https://i.ytimg.com/vi/P8ggfb67ODs/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg\u0026rs=AMzJL3kxkg-OwMYT6HGoOYC7VAnv71VpGA",
+                   "width": 800
+                  },
+                  {
+                   "height": 479,
+                   "url": "https://i.ytimg.com/vi/P8ggfb67ODs/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg\u0026rs=AMzJL3nnfdkaoqKuzrMxU-z-mym-zpLjVw",
+                   "width": 853
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_NON_MUSIC_AUDIO_TRACK_PAGE"
+                    }
+                   },
+                   "browseId": "MPEDP8ggfb67ODs",
+                   "params": "ggMHmgEECgAQAA%3D%3D"
+                  }
+                 },
+                 "text": "MatPat \u0026 Friends Explore the Eras of Mukbang LIVE @vidcon  - Like \u0026 Describe Podcast #8"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicMultiRowListItemRenderer": {
+              "description": {
+               "runs": [
+                {
+                 "text": "Join gymnastics insider @pengpengclee, golf extraordinaire @GrantHorvatGolfs, wrestling champion @CaydenHenschel, running guru @AlexisBlack, and table tennis master Emil of @Pongfinity, together with host MatPat as they dive into the fascinating world of non-team sports on YouTube in episode 7 of Like \u0026 Describe. This all-star lineup of creators are not only revolutionizing how we experience athletics online, they’re also pioneering a whole new form of sports entertainment.\n\nDiscover the secrets behind sports content creation, the most viral trick shots, hilarious challenges, and unexpected crossovers that are bringing year-round attention to these individual sports. 🏅🎥\n\nGuest Creators: \n@pengpengclee \n@GrantHorvatGolfs \n@CaydenHenschel \n@AlexisBlack \n@Pongfinity \n\n#YouTube #LikeAndDescribe #Olympics"
+                }
+               ]
+              },
+              "displayStyle": "MUSIC_MULTI_ROW_LIST_ITEM_DISPLAY_STYLE_EXPANDED",
+              "onTap": {
+               "watchEndpoint": {
+                "index": 1,
+                "params": "8gEDmAEI",
+                "videoId": "6t2j1Asw8UA",
+                "watchEndpointMusicSupportedConfigs": {
+                 "watchEndpointMusicConfig": {
+                  "musicVideoType": "MUSIC_VIDEO_TYPE_PODCAST_EPISODE"
+                 }
+                }
+               }
+              },
+              "playbackProgress": {
+               "musicPlaybackProgressRenderer": {
+                "durationText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "23 min"
+                  }
+                 ]
+                },
+                "playbackProgressPercentage": 0,
+                "playbackProgressText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "23 min"
+                  }
+                 ]
+                },
+                "playedText": {
+                 "runs": [
+                  {
+                   "text": " • "
+                  },
+                  {
+                   "text": "Played",
+                   "textColor": 4294921797
+                  }
+                 ]
+                },
+                "videoPlaybackPositionFeedbackToken": ""
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "text": "1M views"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "Jul 31, 2024"
+                }
+               ]
+              },
+              "thumbnail": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 225,
+                   "url": "https://i.ytimg.com/vi/6t2j1Asw8UA/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg\u0026rs=AMzJL3msUEKQjmtcYMONpj9j_WHHEfUO9g",
+                   "width": 400
+                  },
+                  {
+                   "height": 450,
+                   "url": "https://i.ytimg.com/vi/6t2j1Asw8UA/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg\u0026rs=AMzJL3kYoGVef8eu0FaEp_-92Mj_KV1egA",
+                   "width": 800
+                  },
+                  {
+                   "height": 479,
+                   "url": "https://i.ytimg.com/vi/6t2j1Asw8UA/hq720.jpg?sqp=-oaymwEKCNUGEN8DIABIWg\u0026rs=AMzJL3nkfZVM3ZG9FK3lLo9dhXkQijXEbA",
+                   "width": 853
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_NON_MUSIC_AUDIO_TRACK_PAGE"
+                    }
+                   },
+                   "browseId": "MPED6t2j1Asw8UA",
+                   "params": "ggMHmgEECgAQAQ%3D%3D"
+                  }
+                 },
+                 "text": "How Creators are redefining sports entertainment - Like \u0026 Describe Podcast #7"
+                }
+               ]
+              }
+             }
+            }
+           ],
+           "header": {
+            "musicCarouselShelfBasicHeaderRenderer": {
+             "headerStyle": "MUSIC_CAROUSEL_SHELF_BASIC_HEADER_STYLE_DISPLAY_TWO",
+             "title": {
+              "runs": [
+               {
+                "text": "Latest episodes"
+               }
+              ]
+             }
+            }
+           },
+           "itemSize": "COLLECTION_STYLE_ITEM_SIZE_MEDIUM",
+           "numItemsPerColumn": "3"
+          }
+         },
+         {
+          "musicCarouselShelfRenderer": {
+           "contents": [
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_SQUARE",
+              "musicItemRendererDisplayPolicy": "MUSIC_ITEM_RENDERER_DISPLAY_POLICY_DEFAULT",
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_PODCAST_SHOW_DETAIL_PAGE"
+                 }
+                },
+                "browseId": "MPSPPLbpi6ZahtOH6eTD4bB5qJ50QQRHz2leKM"
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 226,
+                   "url": "https://yt3.googleusercontent.com/3s6evpqAiDU9tQR4sC2siJippbH2RWVPnwHgyl4V0th2iuQz0VDQZbUhQBGmsxLYo-mjG6TqZQ=w226-c-h226-k-c0x00ffffff-no-l90-rj",
+                   "width": 226
+                  },
+                  {
+                   "height": 544,
+                   "url": "https://yt3.googleusercontent.com/3s6evpqAiDU9tQR4sC2siJippbH2RWVPnwHgyl4V0th2iuQz0VDQZbUhQBGmsxLYo-mjG6TqZQ=w544-c-h544-k-c0x00ffffff-no-l90-rj",
+                   "width": 544
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_PODCAST_SHOW_DETAIL_PAGE"
+                    }
+                   },
+                   "browseId": "MPSPPLbpi6ZahtOH6eTD4bB5qJ50QQRHz2leKM"
+                  }
+                 },
+                 "text": "Like \u0026 Describe Podcast"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_SQUARE",
+              "musicItemRendererDisplayPolicy": "MUSIC_ITEM_RENDERER_DISPLAY_POLICY_DEFAULT",
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_PODCAST_SHOW_DETAIL_PAGE"
+                 }
+                },
+                "browseId": "MPSPPLbpi6ZahtOH6w-edZ_21_fsLTYm74yWmN"
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 226,
+                   "url": "https://yt3.googleusercontent.com/3s6evpqAiDU9tQR4sC2siJippbH2RWVPnwHgyl4V0th2iuQz0VDQZbUhQBGmsxLYo-mjG6TqZQ=w226-c-h226-k-c0x00ffffff-no-l90-rj",
+                   "width": 226
+                  },
+                  {
+                   "height": 544,
+                   "url": "https://yt3.googleusercontent.com/3s6evpqAiDU9tQR4sC2siJippbH2RWVPnwHgyl4V0th2iuQz0VDQZbUhQBGmsxLYo-mjG6TqZQ=w544-c-h544-k-c0x00ffffff-no-l90-rj",
+                   "width": 544
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_PODCAST_SHOW_DETAIL_PAGE"
+                    }
+                   },
+                   "browseId": "MPSPPLbpi6ZahtOH6w-edZ_21_fsLTYm74yWmN"
+                  }
+                 },
+                 "text": "The Upload: The Rise of the Creator Economy"
+                }
+               ]
+              }
+             }
+            }
+           ],
+           "header": {
+            "musicCarouselShelfBasicHeaderRenderer": {
+             "headerStyle": "MUSIC_CAROUSEL_SHELF_BASIC_HEADER_STYLE_DISPLAY_TWO",
+             "title": {
+              "runs": [
+               {
+                "text": "Podcasts"
+               }
+              ]
+             }
+            }
+           },
+           "itemSize": "COLLECTION_STYLE_ITEM_SIZE_MEDIUM"
+          }
+         },
+         {
+          "musicCarouselShelfRenderer": {
+           "contents": [
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_RECTANGLE_16_9",
+              "navigationEndpoint": {
+               "watchEndpoint": {
+                "videoId": "YE5atUDhF6E",
+                "watchEndpointMusicSupportedConfigs": {
+                 "watchEndpointMusicConfig": {
+                  "musicVideoType": "MUSIC_VIDEO_TYPE_UGC"
+                 }
+                }
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "136K views"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 225,
+                   "url": "https://i.ytimg.com/vi/YE5atUDhF6E/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg\u0026rs=AMzJL3kOkKVWJ22sBW0NsKH23cXeHsLRAw",
+                   "width": 400
+                  },
+                  {
+                   "height": 450,
+                   "url": "https://i.ytimg.com/vi/YE5atUDhF6E/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg\u0026rs=AMzJL3l3n1EgeRTpFb-ciNssf0T_XyKy0w",
+                   "width": 800
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "text": "new video 🚨 head to our channel to see how @jabbawockeez create this dance in less than 60 minutes"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_RECTANGLE_16_9",
+              "navigationEndpoint": {
+               "watchEndpoint": {
+                "videoId": "YhwVjWzH5x8",
+                "watchEndpointMusicSupportedConfigs": {
+                 "watchEndpointMusicConfig": {
+                  "musicVideoType": "MUSIC_VIDEO_TYPE_UGC"
+                 }
+                }
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "4.3M views"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 225,
+                   "url": "https://i.ytimg.com/vi/YhwVjWzH5x8/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg\u0026rs=AMzJL3kkQ-PZ0C6gNStsapl9NjRLfg0JCw",
+                   "width": 400
+                  },
+                  {
+                   "height": 450,
+                   "url": "https://i.ytimg.com/vi/YhwVjWzH5x8/hq720.jpg?sqp=-oaymwEKCKAGEMIDIABIWg\u0026rs=AMzJL3kxKGeQlxapGv-FVtzwsa8-iJZxgA",
+                   "width": 800
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "text": "The JABBAWOCKEEZ Create a Dance in One Hour"
+                }
+               ]
+              }
+             }
+            }
+           ],
+           "header": {
+            "musicCarouselShelfBasicHeaderRenderer": {
+             "headerStyle": "MUSIC_CAROUSEL_SHELF_BASIC_HEADER_STYLE_DISPLAY_TWO",
+             "title": {
+              "runs": [
+               {
+                "text": "Videos"
+               }
+              ]
+             }
+            }
+           },
+           "itemSize": "COLLECTION_STYLE_ITEM_SIZE_MEDIUM"
+          }
+         },
+         {
+          "musicCarouselShelfRenderer": {
+           "contents": [
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_SQUARE",
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_PLAYLIST"
+                 }
+                },
+                "browseId": "VLPLbpi6ZahtOH6qWRppGWanp7AvCPNj_s8L"
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "text": "Playlist"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "1.1M views"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 192,
+                   "url": "https://yt3.googleusercontent.com/Juf0kG096BaB-o_f2YPdHd39SAeMbQKkRITrPYuvifzx6Sg0W_WOfvv0uP5WxabxiXaHOV12DnQ=s192",
+                   "width": 192
+                  },
+                  {
+                   "height": 576,
+                   "url": "https://yt3.googleusercontent.com/Juf0kG096BaB-o_f2YPdHd39SAeMbQKkRITrPYuvifzx6Sg0W_WOfvv0uP5WxabxiXaHOV12DnQ=s576",
+                   "width": 576
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_PLAYLIST"
+                    }
+                   },
+                   "browseId": "VLPLbpi6ZahtOH6qWRppGWanp7AvCPNj_s8L"
+                  }
+                 },
+                 "text": "Celebrate 50 years of Hip-Hop with 50 Deep"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicTwoRowItemRenderer": {
+              "aspectRatio": "MUSIC_TWO_ROW_ITEM_THUMBNAIL_ASPECT_RATIO_SQUARE",
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_PLAYLIST"
+                 }
+                },
+                "browseId": "VLPLbpi6ZahtOH4cg45WlyD_o0zX6qYUmJk_"
+               }
+              },
+              "subtitle": {
+               "runs": [
+                {
+                 "text": "Playlist"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   },
+                   "browseId": "UCBR8-60-B28hp2BmDPdntcQ"
+                  }
+                 },
+                 "text": "YouTube"
+                },
+                {
+                 "text": " • "
+                },
+                {
+                 "text": "495K views"
+                }
+               ]
+              },
+              "thumbnailRenderer": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "height": 192,
+                   "url": "https://yt3.googleusercontent.com/_qZXDziiy8rjAx7PB-oBBjKIVybDpfxj81LsxSlTF0eadJckn_Cj7GDTvFEBOy7UItuNlMKOXTA=s192",
+                   "width": 192
+                  },
+                  {
+                   "height": 576,
+                   "url": "https://yt3.googleusercontent.com/_qZXDziiy8rjAx7PB-oBBjKIVybDpfxj81LsxSlTF0eadJckn_Cj7GDTvFEBOy7UItuNlMKOXTA=s576",
+                   "width": 576
+                  }
+                 ]
+                },
+                "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+                "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+               }
+              },
+              "title": {
+               "runs": [
+                {
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_PLAYLIST"
+                    }
+                   },
+                   "browseId": "VLPLbpi6ZahtOH4cg45WlyD_o0zX6qYUmJk_"
+                  }
+                 },
+                 "text": "Synth sensations"
+                }
+               ]
+              }
+             }
+            }
+           ],
+           "header": {
+            "musicCarouselShelfBasicHeaderRenderer": {
+             "headerStyle": "MUSIC_CAROUSEL_SHELF_BASIC_HEADER_STYLE_DISPLAY_TWO",
+             "moreContentButton": {
+              "buttonRenderer": {
+               "navigationEndpoint": {
+                "browseEndpoint": {
+                 "browseId": "UCBR8-60-B28hp2BmDPdntcQ",
+                 "params": "6gPgAUdxVUJXcFlCQ3BNQkNpUjVkRjl3WVdkbFgzTnVZWEJ6YUc5MFgyMTFjMmxqWDNCaFoyVmZjbVZuYVc5dVlXd1NIMDB6VDBsdE1VeElZWGx2VjFGS1ZGUllMVVJVY2psR1VWa3diVE5IZUc4YVNnQUFaVzRBQVZWVEFBRlZVd0FCQUVaRmJYVnphV05mWkdWMFlXbHNYMkZ5ZEdsemRBQUJBVU1BQUFFQUFBRUJBRlZEUWxJNExUWXdMVUl5T0dod01rSnRSRkJrYm5SalVRQUI4dHF6cWdvR1FBUklBRkFR"
+                }
+               },
+               "style": "STYLE_TEXT",
+               "text": {
+                "runs": [
+                 {
+                  "text": "More"
+                 }
+                ]
+               }
+              }
+             },
+             "title": {
+              "runs": [
+               {
+                "navigationEndpoint": {
+                 "browseEndpoint": {
+                  "browseId": "UCBR8-60-B28hp2BmDPdntcQ",
+                  "params": "6gPgAUdxVUJXcFlCQ3BNQkNpUjVkRjl3WVdkbFgzTnVZWEJ6YUc5MFgyMTFjMmxqWDNCaFoyVmZjbVZuYVc5dVlXd1NIMDB6VDBsdE1VeElZWGx2VjFGS1ZGUllMVVJVY2psR1VWa3diVE5IZUc4YVNnQUFaVzRBQVZWVEFBRlZVd0FCQUVaRmJYVnphV05mWkdWMFlXbHNYMkZ5ZEdsemRBQUJBVU1BQUFFQUFBRUJBRlZEUWxJNExUWXdMVUl5T0dod01rSnRSRkJrYm5SalVRQUI4dHF6cWdvR1FBUklBRkFR"
+                 }
+                },
+                "text": "Playlists"
+               }
+              ]
+             }
+            }
+           },
+           "itemSize": "COLLECTION_STYLE_ITEM_SIZE_MEDIUM"
+          }
+         }
+        ]
+       }
+      },
+      "endpoint": {
+       "browseEndpoint": {
+        "browseId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "params": "EghmZWF0dXJlZA%3D%3D"
+       }
+      },
+      "selected": true,
+      "title": "Home"
+     }
+    }
+   ]
+  }
+ },
+ "header": {
+  "musicVisualHeaderRenderer": {
+   "foregroundThumbnail": {
+    "musicThumbnailRenderer": {
+     "thumbnail": {
+      "thumbnails": [
+       {
+        "height": 544,
+        "url": "https://yt3.googleusercontent.com/3s6evpqAiDU9tQR4sC2siJippbH2RWVPnwHgyl4V0th2iuQz0VDQZbUhQBGmsxLYo-mjG6TqZQ=w544-c-h544-k-c0x00ffffff-no-l90-rj",
+        "width": 544
+       }
+      ]
+     },
+     "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_CIRCLE",
+     "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+    }
+   },
+   "subscriptionButton": {
+    "subscribeButtonRenderer": {
+     "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+     "enabled": true,
+     "longSubscriberCountText": {
+      "runs": [
+       {
+        "text": "46.6M subscribers"
+       }
+      ]
+     },
+     "shortSubscriberCountText": {
+      "runs": [
+       {
+        "text": "46.6M"
+       }
+      ]
+     },
+     "showPreferences": false,
+     "signInEndpoint": {
+      "modalEndpoint": {
+       "modal": {
+        "modalWithTitleAndButtonRenderer": {
+         "button": {
+          "buttonRenderer": {
+           "isDisabled": false,
+           "navigationEndpoint": {
+            "signInEndpoint": {
+             "hack": true
+            }
+           },
+           "style": "STYLE_BLUE_TEXT",
+           "text": {
+            "runs": [
+             {
+              "text": "Sign in"
+             }
+            ]
+           }
+          }
+         },
+         "content": {
+          "runs": [
+           {
+            "text": "Sign in to subscribe to this artist and never miss a beat"
+           }
+          ]
+         },
+         "title": {
+          "runs": [
+           {
+            "text": "Subscribe to this artist"
+           }
+          ]
+         }
+        }
+       }
+      }
+     },
+     "subscribeAccessibility": {},
+     "subscribed": false,
+     "subscribedButtonText": {
+      "runs": [
+       {
+        "text": "Subscribed"
+       }
+      ]
+     },
+     "subscriberCountText": {
+      "runs": [
+       {
+        "text": "46.6M"
+       }
+      ]
+     },
+     "subscriberCountWithSubscribeText": {
+      "runs": [
+       {
+        "text": "46.6M"
+       }
+      ]
+     },
+     "theme": {
+      "suppressIcon": true
+     },
+     "type": "FREE",
+     "unsubscribeAccessibility": {},
+     "unsubscribeButtonText": {
+      "runs": [
+       {
+        "text": "Unsubscribe"
+       }
+      ]
+     },
+     "unsubscribedButtonText": {
+      "runs": [
+       {
+        "text": "Subscribe"
+       }
+      ]
+     }
+    }
+   },
+   "thumbnail": {
+    "musicThumbnailRenderer": {
+     "thumbnail": {
+      "thumbnails": [
+       {
+        "height": 853,
+        "url": "https://yt3.googleusercontent.com/VoNvj8y4etbHvx13NV5ctYOeryzbAj_hdqrfcrPuNub1vHbCMrT2f7L4HO2PmKZ2Px1zbf0sVQ=w2048-h853-p-l90-rj",
+        "width": 2048
+       }
+      ]
+     },
+     "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+     "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FILL"
+    }
+   },
+   "title": {
+    "runs": [
+     {
+      "text": "YouTube"
+     }
+    ]
+   }
+  }
+ }
+}

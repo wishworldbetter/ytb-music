@@ -1,0 +1,432 @@
+{
+ "contents": {
+  "twoColumnBrowseResultsRenderer": {
+   "secondaryContents": {
+    "sectionListRenderer": {
+     "contents": [
+      {
+       "musicPlaylistShelfRenderer": {
+        "playlistId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+        "contents": [
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/-5ZXrO_lYSA/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3lE4Y_-3X7ZLtHliwguTRRFlKroeA",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             },
+             "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+             "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "-5ZXrO_lYSA",
+                 "playlistId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+                 "playerParams": "ygYQMzA4QUNBQkI4RkE5NzYwN9IHCQkJAfohPsuPPg%3D%3D",
+                 "playlistSetVideoId": "308ACABB8FA97607",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               },
+               "activeScaleFactor": 1,
+               "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+               "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+              }
+             },
+             "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+             "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Tarantino (Official Music Video)",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "-5ZXrO_lYSA",
+                   "playlistId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "LISA",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCXtPv6CbKfuXPNj3MyKFOig",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {},
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_MEDIUM"
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "3:37"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH",
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "menu": {
+            "menuRenderer": {
+             "items": []
+            }
+           },
+           "playlistItemData": {
+            "playlistSetVideoId": "308ACABB8FA97607",
+            "videoId": "-5ZXrO_lYSA",
+            "voteSortValue": 1793993725
+           },
+           "customIndexColumn": {
+            "musicCustomIndexColumnRenderer": {
+             "text": {
+              "runs": [
+               {
+                "text": "1"
+               }
+              ]
+             },
+             "icon": {
+              "iconType": "ARROW_DROP_UP"
+             },
+             "iconColorStyle": "CUSTOM_INDEX_COLUMN_ICON_COLOR_STYLE_GREEN"
+            }
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/9ofUM-_3uQ4/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3ko7n24hhABwiVB4GCg3r_OP_-P4A",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             },
+             "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+             "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_ASPECT_FIT"
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "9ofUM-_3uQ4",
+                 "playlistId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+                 "playerParams": "ygYQMjZDNzgxRjU5NkY4MTRBQg%3D%3D",
+                 "playlistSetVideoId": "26C781F596F814AB",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               },
+               "activeScaleFactor": 1,
+               "buttonSize": "MUSIC_PLAY_BUTTON_SIZE_SMALL",
+               "rippleTarget": "MUSIC_PLAY_BUTTON_RIPPLE_TARGET_SELF"
+              }
+             },
+             "contentPosition": "MUSIC_ITEM_THUMBNAIL_OVERLAY_CONTENT_POSITION_CENTERED",
+             "displayStyle": "MUSIC_ITEM_THUMBNAIL_OVERLAY_DISPLAY_STYLE_PERSISTENT"
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Tina Tuesday",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "9ofUM-_3uQ4",
+                   "playlistId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+                   "playerParams": "0gcJCTUC0OBS9m0t",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Megan Thee Stallion",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCZBf6sY19D8pN4JIxP9PE3Q",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH"
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {},
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_MEDIUM"
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "2:27"
+                }
+               ]
+              },
+              "displayPriority": "MUSIC_RESPONSIVE_LIST_ITEM_COLUMN_DISPLAY_PRIORITY_HIGH",
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "menu": {
+            "menuRenderer": {
+             "items": []
+            }
+           },
+           "playlistItemData": {
+            "playlistSetVideoId": "26C781F596F814AB",
+            "videoId": "9ofUM-_3uQ4",
+            "voteSortValue": 1793993725
+           },
+           "customIndexColumn": {
+            "musicCustomIndexColumnRenderer": {
+             "text": {
+              "runs": [
+               {
+                "text": "2"
+               }
+              ]
+             },
+             "icon": {
+              "iconType": "ARROW_DROP_UP"
+             },
+             "iconColorStyle": "CUSTOM_INDEX_COLUMN_ICON_COLOR_STYLE_GREEN"
+            }
+           }
+          }
+         }
+        ],
+        "collapsedItemCount": 100,
+        "contentsMultiSelectable": true,
+        "targetId": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc"
+       }
+      }
+     ],
+     "targetId": "VLPL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc"
+    }
+   },
+   "tabs": [
+    {
+     "tabRenderer": {
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "musicResponsiveHeaderRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://yt3.googleusercontent.com/RO4F_IMN8h9jCtuSE0z0L1s0vSduYxeivJb5yZyOLpynajAcEAQnE4Pi4xadSseHtJvE-ZYRwQE=s192",
+                "width": 192,
+                "height": 192
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/RO4F_IMN8h9jCtuSE0z0L1s0vSduYxeivJb5yZyOLpynajAcEAQnE4Pi4xadSseHtJvE-ZYRwQE=s576",
+                "width": 576,
+                "height": 576
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/RO4F_IMN8h9jCtuSE0z0L1s0vSduYxeivJb5yZyOLpynajAcEAQnE4Pi4xadSseHtJvE-ZYRwQE=s1200",
+                "width": 1200,
+                "height": 1200
+               }
+              ]
+             },
+             "thumbnailCrop": "MUSIC_THUMBNAIL_CROP_UNSPECIFIED",
+             "thumbnailScale": "MUSIC_THUMBNAIL_SCALE_UNSPECIFIED"
+            }
+           },
+           "title": {
+            "runs": [
+             {
+              "text": "Top 100 Music Videos United States"
+             }
+            ]
+           },
+           "subtitle": {
+            "runs": [
+             {
+              "text": "Chart"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "2026"
+             }
+            ]
+           },
+           "description": {
+            "musicDescriptionShelfRenderer": {
+             "description": {
+              "runs": [
+               {
+                "text": "This week's ranking of the most popular music videos on YouTube."
+               }
+              ]
+             },
+             "shelfStyle": "MUSIC_SHELF_STYLE_OPEN_DIALOG_ON_CLICK"
+            }
+           },
+           "secondSubtitle": {
+            "runs": [
+             {
+              "text": "100 songs"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "6 hours, 7 minutes"
+             }
+            ]
+           },
+           "facepile": {
+            "avatarStackViewModel": {
+             "avatars": [
+              {
+               "avatarViewModel": {
+                "image": {
+                 "sources": [
+                  {
+                   "url": "https://yt3.ggpht.com/5iPdTXalfmmE2Tn5hFiB1IGwXOo5Gi-igbDFZybbGlPKwn9pHTp23oxFMRLY4uzdTtc2gDWa=s48-c-k-c0x00000000-no-cc-rj-rp"
+                  }
+                 ],
+                 "processor": {
+                  "borderImageProcessor": {
+                   "circular": true
+                  }
+                 }
+                },
+                "avatarImageSize": "AVATAR_SIZE_XS"
+               }
+              }
+             ],
+             "text": {
+              "content": "YouTube Charts"
+             },
+             "rendererContext": {
+              "accessibilityContext": {
+               "label": "YouTube Charts"
+              },
+              "commandContext": {
+               "onTap": {
+                "innertubeCommand": {
+                 "browseEndpoint": {
+                  "browseId": "FEmusic_charts",
+                  "browseEndpointContextSupportedConfigs": {
+                   "browseEndpointContextMusicConfig": {
+                    "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        ],
+        "targetId": "VLPL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc_header"
+       }
+      }
+     }
+    }
+   ]
+  }
+ }
+}
