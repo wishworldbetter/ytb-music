@@ -8,6 +8,7 @@ import (
 	"github.com/egoist/mygo"
 	"github.com/egoist/mygo/ui"
 
+	"ytb-music/internal/player"
 	"ytb-music/internal/ytm"
 )
 
@@ -48,6 +49,7 @@ type videoState struct {
 	cued     time.Time
 	urls     map[string]videoURL // streams found, by video ID
 	fetching map[string]bool     // streams being found
+	urlGen   int                 // counts the settings' changes to the streams
 	stage    ui.Rect             // where the theater was laid out last
 }
 
@@ -70,9 +72,36 @@ func videoLog(what string, since time.Time) {
 	}
 }
 
-// videoURLFor finds the stream of a video's pictures, at most 1080p:
-// tests replace it.
-var videoURLFor = func(id string) (string, error) { return ytm.VideoStream(id, 1080) }
+// videoURLFor finds the stream of a video's pictures, at most height
+// pixels high and bps bits a second if bps is more than 0: tests replace
+// it.
+var videoURLFor = func(id string, height, bps int) (string, error) { return ytm.VideoStream(id, height, bps) }
+
+// videoShare is how much of what songs come in at a video may take: it
+// keeps up, with room for the song coming in beside it.
+const videoShare = 0.7
+
+// videoLimits are how tall a video may be and how many bits a second it
+// may take: as the settings say, else at most 1080p, as fast as songs come
+// in allows, or 720p before any came in.
+func (a *app) videoLimits() (height, bps int) {
+	if h := a.settings.VideoHeight; h > 0 {
+		return h, 0
+	}
+	if t := player.Throughput(); t > 0 {
+		return 1080, int(t * videoShare)
+	}
+	return 720, 0
+}
+
+// changeVideoHeight takes the settings' new height for videos: the video
+// shown loads again at it, and those found ahead are found again.
+func (a *app) changeVideoHeight() {
+	v := &a.video
+	v.urls, v.fetching = nil, nil
+	v.urlGen++
+	a.closeVideo()
+}
 
 // How the video keeps in time with the song: looked at every videoCheck,
 // a little faster or slower while it is off by more than videoNudge, moved
@@ -203,9 +232,14 @@ func (a *app) fetchVideo(id string) {
 		v.fetching = map[string]bool{}
 	}
 	v.fetching[id] = true
+	height, bps := a.videoLimits()
+	gen := v.urlGen
 	go func() {
-		url, err := videoURLFor(id)
+		url, err := videoURLFor(id, height, bps)
 		a.post(func() {
+			if gen != v.urlGen {
+				return // found for settings since changed
+			}
 			delete(v.fetching, id)
 			if err == nil && url != "" {
 				if v.urls == nil {

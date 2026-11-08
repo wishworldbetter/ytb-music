@@ -212,12 +212,13 @@ func VideoURL(id string) (string, error) {
 	return p.hls, nil
 }
 
-// VideoStream returns the stream of a video's pictures alone, at the
-// most height pixels high: of its HLS manifest, the H.264 variant of that
-// height or the tallest below it. A muted video kept in time with the
-// song needs neither the variants' sound nor their switching, which starts
-// from the lowest and climbs for a while; else, the manifest.
-func VideoStream(id string, height int) (string, error) {
+// VideoStream returns the stream of a video's pictures alone: of its HLS
+// manifest, the tallest H.264 variant at most height pixels high and, if
+// bps is more than 0, taking at most bps bits a second. A muted video kept
+// in time with the song needs neither the variants' sound nor their
+// switching, which starts from the lowest and climbs for a while; else,
+// the manifest.
+func VideoStream(id string, height, bps int) (string, error) {
 	master, err := VideoURL(id)
 	if err != nil {
 		return "", err
@@ -226,15 +227,16 @@ func VideoStream(id string, height int) (string, error) {
 	if err != nil {
 		return master, nil
 	}
-	if v := pickVariant(string(body), height); v != "" {
+	if v := pickVariant(string(body), height, bps); v != "" {
 		return v, nil
 	}
 	return master, nil
 }
 
 // pickVariant returns the URI of the tallest H.264 variant of a master
-// playlist no taller than height, or of the shortest if all are taller.
-func pickVariant(m3u8 string, height int) string {
+// playlist no taller than height and, if bps is more than 0, of no more
+// bandwidth than bps, or of the shortest if none is.
+func pickVariant(m3u8 string, height, bps int) string {
 	lines := strings.Split(m3u8, "\n")
 	best, bestH, low, lowH := "", 0, "", 1<<30
 	for i, l := range lines {
@@ -248,7 +250,8 @@ func pickVariant(m3u8 string, height int) string {
 		if !ok || err != nil || uri == "" || strings.HasPrefix(uri, "#") {
 			continue
 		}
-		if h <= height && h > bestH {
+		bw, _ := strconv.Atoi(attr(l, "BANDWIDTH"))
+		if h <= height && h > bestH && (bps <= 0 || bw <= bps) {
 			best, bestH = uri, h
 		}
 		if h < lowH {

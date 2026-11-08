@@ -142,6 +142,25 @@ func (a *app) settingsView(c *ui.Context) {
 					a.preparePremium()
 				}
 			})
+			row("视频画质", "自动：按实测网速选跟得上的最高画质，最高 1080p", func() {
+				labels := make([]string, len(videoHeights))
+				chosen := videoHeights[0].label
+				for i, h := range videoHeights {
+					labels[i] = h.label
+					if h.height == s.VideoHeight {
+						chosen = h.label
+					}
+				}
+				if ui.Select(c.Key("video-height"), &chosen, labels).Label("视频画质").Width(150).Changed() {
+					for _, h := range videoHeights {
+						if h.label == chosen {
+							s.VideoHeight = h.height
+						}
+					}
+					a.changed()
+					a.changeVideoHeight()
+				}
+			})
 			row("音量均衡", "按 YouTube 测得的响度调整每首歌的音量，让歌曲听起来一样响", func() {
 				if ui.Switch(c.Key("normalize"), &s.Normalize).Label("音量均衡").Changed() {
 					a.pl.SetVolume(a.volume)

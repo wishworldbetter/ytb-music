@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"strings"
 	"sync"
+	"time"
 
 	"github.com/egoist/mygo/audio"
 	_ "github.com/egoist/mygo/audio/aac" // AAC in MP4: YouTube's itag 140
@@ -182,6 +183,7 @@ func (d *download) fetchRange(ctx context.Context, url string, from, to int64) (
 	if err != nil {
 		return 0, err
 	}
+	start := time.Now()
 	req.Header.Set("User-Agent", ytm.UserAgent)
 	res, err := http.DefaultClient.Do(req)
 	if err != nil {
@@ -210,5 +212,42 @@ func (d *download) fetchRange(ctx context.Context, url string, from, to int64) (
 	if got < want {
 		return got, io.ErrUnexpectedEOF
 	}
+	noteSpeed(got, time.Since(start))
 	return got, nil
+}
+
+// speed is how fast songs came in lately, in bits a second, from ranges
+// of them big enough to tell: what the network gives a stream from
+// YouTube's servers, the wait for each range counted, as a video's
+// segments wait too.
+var speed struct {
+	mu  sync.Mutex
+	bps float64
+}
+
+// speedRange is the least of a range that tells the speed: smaller ones
+// are mostly the wait for them.
+const speedRange = 512 << 10
+
+// noteSpeed takes a range of n bytes that came in d.
+func noteSpeed(n int64, d time.Duration) {
+	if n < speedRange || d <= 0 {
+		return
+	}
+	v := float64(n) * 8 / d.Seconds()
+	speed.mu.Lock()
+	defer speed.mu.Unlock()
+	if speed.bps == 0 {
+		speed.bps = v
+	} else {
+		speed.bps = (speed.bps + v) / 2 // the latest weighs as much as all before
+	}
+}
+
+// Throughput returns how fast songs came in lately, in bits a second, or 0
+// before any came in.
+func Throughput() float64 {
+	speed.mu.Lock()
+	defer speed.mu.Unlock()
+	return speed.bps
 }

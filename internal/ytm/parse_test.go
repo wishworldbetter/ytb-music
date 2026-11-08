@@ -278,7 +278,8 @@ func TestRadio(t *testing.T) {
 }
 
 // A video kept in time with the song plays the tallest H.264 variant that
-// fits, not a VP9 one, nor the lowest the manifest starts from.
+// fits its height and the network, not a VP9 one, nor the lowest the
+// manifest starts from.
 func TestPickVariant(t *testing.T) {
 	m := "#EXTM3U\n" +
 		"#EXT-X-STREAM-INF:BANDWIDTH=313238,CODECS=\"avc1.4D4015,mp4a.40.5\",RESOLUTION=426x240,AUDIO=\"233\"\nhttps://m/240\n" +
@@ -286,11 +287,16 @@ func TestPickVariant(t *testing.T) {
 		"#EXT-X-STREAM-INF:BANDWIDTH=4688833,CODECS=\"avc1.640028,mp4a.40.2\",RESOLUTION=1920x1080,AUDIO=\"234\"\nhttps://m/1080\n" +
 		"#EXT-X-STREAM-INF:BANDWIDTH=5845523,CODECS=\"vp09.00.40.08,mp4a.40.2\",RESOLUTION=1920x1080,AUDIO=\"234\"\nhttps://m/vp9\n"
 	for _, c := range []struct {
-		h    int
-		want string
-	}{{1080, "https://m/1080"}, {900, "https://m/720"}, {100, "https://m/240"}, {2160, "https://m/1080"}} {
-		if got := pickVariant(m, c.h); got != c.want {
-			t.Errorf("at most %d: %s, want %s", c.h, got, c.want)
+		h, bps int
+		want   string
+	}{
+		{1080, 0, "https://m/1080"}, {900, 0, "https://m/720"}, {100, 0, "https://m/240"}, {2160, 0, "https://m/1080"},
+		// A network too slow for 1080p gets what it keeps up with, and
+		// one too slow for any the lowest.
+		{1080, 3_000_000, "https://m/720"}, {1080, 1_000_000, "https://m/240"}, {1080, 100_000, "https://m/240"},
+	} {
+		if got := pickVariant(m, c.h, c.bps); got != c.want {
+			t.Errorf("at most %dp, %d b/s: %s, want %s", c.h, c.bps, got, c.want)
 		}
 	}
 }

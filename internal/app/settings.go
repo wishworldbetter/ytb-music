@@ -23,9 +23,12 @@ type settings struct {
 	// NotchGreeted says the notch showed itself, once, as the first song
 	// played (greet).
 	NotchGreeted bool `json:"notchGreeted"`
-	// Quality is the level of the streams: standard, higher, exhigh,
-	// lossless or hires.
+	// Quality is the level of the streams: standard, or exhigh for
+	// Premium's.
 	Quality string `json:"quality"`
+	// VideoHeight is how tall a video plays, at most, or 0 to play the
+	// tallest the network keeps up with.
+	VideoHeight int `json:"videoHeight"`
 	// Appearance is light, dark, or system to follow the system.
 	Appearance string `json:"appearance"`
 	// Smoke makes the progress bars comets trailing smoke as music plays,
@@ -161,6 +164,19 @@ func (s settings) applyAppearance() {
 var qualityLevels = []struct{ level, label string }{
 	{"standard", "标准（AAC 128k）"},
 	{"exhigh", "高（AAC 256k）"},
+}
+
+// videoHeights are the heights the settings offer a video, 0 for the
+// tallest the network keeps up with.
+var videoHeights = []struct {
+	height int
+	label  string
+}{
+	{0, "自动"},
+	{1080, "1080p"},
+	{720, "720p"},
+	{480, "480p"},
+	{360, "360p"},
 }
 
 // cacheLimits are the sizes the song cache may take, in megabytes.

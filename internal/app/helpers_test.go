@@ -25,5 +25,5 @@ func newTestApp() *app {
 func init() {
 	browserProfiles = func() ([]browsercookies.Profile, error) { return nil, nil }
 	browserIcon = func(string) *ui.Bitmap { return nil }
-	videoURLFor = func(string) (string, error) { return "", errors.New("offline") }
+	videoURLFor = func(string, int, int) (string, error) { return "", errors.New("offline") }
 }

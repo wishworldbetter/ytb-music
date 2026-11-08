@@ -329,3 +329,19 @@ func TestBetterStreamGivesWay(t *testing.T) {
 		t.Errorf("read %d, %v", n, err)
 	}
 }
+
+// How fast songs come in is told by the ranges big enough to tell, in bits
+// a second, the latest weighing as much as all before.
+func TestThroughput(t *testing.T) {
+	speed.bps = 0
+	defer func() { speed.bps = 0 }()
+	noteSpeed(64<<10, 100*time.Millisecond) // mostly the wait for it
+	if got := Throughput(); got != 0 {
+		t.Fatalf("a small range told %v", got)
+	}
+	noteSpeed(1<<20, time.Second)
+	noteSpeed(3<<20, time.Second)
+	if got, want := Throughput(), float64(2<<20)*8; got != want {
+		t.Fatalf("%v b/s, want %v", got, want)
+	}
+}

@@ -1,6 +1,7 @@
 package app
 
 import (
+	"errors"
 	"fmt"
 	"image/png"
 	"math"
@@ -339,5 +340,39 @@ func TestPlayingStaysInList(t *testing.T) {
 	}
 	if cur := a.pl.Current(); cur == nil || cur.ID != "2" || a.nowPlaying {
 		t.Fatalf("playing %v, Now Playing open %v", cur, a.nowPlaying)
+	}
+}
+
+// A video is found as tall as the settings say, or 720p before the network
+// is known; a height chosen finds the video again at it, though it was
+// being found at the height before.
+func TestVideoHeightSetting(t *testing.T) {
+	asked := make(chan [2]int, 4)
+	was := videoURLFor
+	defer func() { videoURLFor = was }()
+	videoURLFor = func(id string, height, bps int) (string, error) {
+		asked <- [2]int{height, bps}
+		return "", errors.New("offline")
+	}
+	a := newTestApp()
+	a.settings = defaultSettings()
+	next := func() [2]int {
+		select {
+		case got := <-asked:
+			return got
+		case <-time.After(5 * time.Second):
+			t.Fatal("the video was not found again")
+			return [2]int{}
+		}
+	}
+	a.fetchVideo("v")
+	if got := next(); got != [2]int{720, 0} {
+		t.Errorf("found at %v before the network was known", got)
+	}
+	a.settings.VideoHeight = 480
+	a.changeVideoHeight()
+	a.fetchVideo("v")
+	if got := next(); got != [2]int{480, 0} {
+		t.Errorf("found at %v with 480p chosen", got)
 	}
 }
