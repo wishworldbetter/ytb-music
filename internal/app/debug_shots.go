@@ -9,6 +9,8 @@ import (
 
 	"github.com/egoist/mygo"
 	"github.com/egoist/mygo/ui"
+
+	"ytb-music/internal/ytm"
 )
 
 // With NM_SHOTS set to a directory, the app walks through its views and
@@ -141,6 +143,80 @@ func init() {
 					time.Sleep(2 * time.Second)
 				}
 				mark("end")
+				mygo.RunOnMain(mygo.App.Quit)
+				return
+			}
+			if os.Getenv("NM_SCENE") == "readme" {
+				// The README's screenshots, of a window signed out: silent,
+				// each marked on stdout ("shot <name>") for screencapture
+				// to take the window, the video in it too, which
+				// CapturePage leaves out.
+				mark := func(name string) {
+					println("shot", name)
+					time.Sleep(2 * time.Second)
+				}
+				// Above other windows: a covered window draws no frames.
+				step(0, func() {
+					a.volume = 0
+					a.pl.SetVolume(0)
+					a.win.SetAlwaysOnTop(true)
+					a.win.Show()
+				})
+				for i := 0; i < 60; i++ {
+					var loading bool
+					mygo.RunOnMain(func() { loading = a.homeLoading || len(a.daily) == 0 })
+					if !loading {
+						break
+					}
+					time.Sleep(250 * time.Millisecond)
+				}
+				time.Sleep(4 * time.Second) // the covers
+				mark("home")
+				step(0, func() { a.open(route{page: pageCharts}) })
+				time.Sleep(4 * time.Second)
+				mark("charts")
+				step(0, func() { a.search("周杰伦 晴天") })
+				time.Sleep(5 * time.Second)
+				mark("search")
+				step(0, func() {
+					d := a.searches[a.route]
+					if d == nil || len(d.res.Songs) == 0 {
+						println("no songs found")
+						return
+					}
+					at := 0
+					for i, tr := range d.res.Songs {
+						if tr.HasVideo() {
+							at = i
+							break
+						}
+					}
+					println("playing", d.res.Songs[at].Name, d.res.Songs[at].HasVideo())
+					a.pl.PlayQueue(d.res.Songs, at)
+				})
+				time.Sleep(3 * time.Second)
+				step(0, func() { a.nowPlaying, a.npPane = true, paneLyrics })
+				time.Sleep(25 * time.Second) // into the song, its lines lit
+				mark("now-playing")
+				step(0, func() { a.npPane = paneStage })
+				time.Sleep(4 * time.Second)
+				mark("stage")
+				// The song's video, found as videos are, in the cover's place.
+				step(0, func() {
+					a.searched.kind = ytm.SearchVideos
+					a.search("周杰伦 晴天")
+				})
+				time.Sleep(5 * time.Second)
+				step(0, func() {
+					if d := a.searches[a.route]; d != nil && len(d.res.Videos) > 0 {
+						println("video", d.res.Videos[0].Name)
+						a.pl.PlayQueue(d.res.Videos, 0)
+					}
+					a.nowPlaying, a.npPane = true, paneLyrics
+					a.chooseVideo(true)
+				})
+				time.Sleep(15 * time.Second)
+				mark("video")
 				mygo.RunOnMain(mygo.App.Quit)
 				return
 			}
