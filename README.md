@@ -23,7 +23,7 @@
 
 ## 构建
 
-需要 Go 1.27+，以及与本仓库并列的 MyGo 分支 `native-video`（`go.mod` 用 `replace github.com/egoist/mygo => ../mygo`），它加了原生视频视图。
+需要 Go 1.27+。MyGo 取自 fork [wishworldbetter/mygo](https://github.com/wishworldbetter/mygo) 的 `native-video` 分支（`go.mod` 里的 `replace`），它加了原生视频视图。同时改 MyGo 时，把它克隆到本仓库旁的 `../mygo`，再建一个 `go.work`（已在 .gitignore 里）：`go work init . ../mygo`。
 
 ```bash
 go tool mygo dev     # 开发模式运行
