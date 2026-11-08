@@ -3,3 +3,8 @@
 mygo_windows_*.syso
 /netease-music-mygo
 /node_modules/
+
+# Local development against ../mygo
+/go.work
+/go.work.sum
+/.build/
